@@ -1,7 +1,7 @@
 Digital Signature
 
 This program is a reduced version of a digital signature using SHA-256 as the hashing algorithm (the receiver compares the sender's hash
-with his/her own hash to verify the signature) and RSA to create the signature. I have uploaded a picture of the building blocks (bb.png).
+with his/her own hash to verify the signature) and RSA to create the signature.
 
 Design and Implementation
 
