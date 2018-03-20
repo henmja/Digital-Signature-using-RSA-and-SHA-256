@@ -1,4 +1,4 @@
-package assignment3;
+package dss;
 
 import java.math.BigInteger;
 import java.util.Scanner;
