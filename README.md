@@ -1,16 +1,16 @@
-Digital Signature
+#Digital Signature
 
 This program is a reduced version of a digital signature using SHA-256 as the hashing algorithm (the receiver compares the sender's hash
 with his/her own hash to verify the signature) and RSA to create the signature.
 
-Design and Implementation
+##Design and Implementation
 
-Signing process:
+###Signing process:
 1. Bob generates a message (user input)
 2. Bob generates hash value for the message (SHA-256 with arbitrary length input.
 3. Bob uses the hash value together with a private key as input for RSA algorithm.
 4. Bob sends the message with RSA signature attached.
-Verification process:
+###Verification process:
 1. Alice receives the message with signature.
 2. Alice calculates a hash value for the received message, just as Bob did in step 2 of the signing process (SHA-256 with arbitrary length
 input).
@@ -20,11 +20,11 @@ signature is valid (which in this case it is, because Alice’s decrypted hash m
 message has been signed by Bob, because nobody else has his private key, so nobody else could have created a signature for this message 
 that could be verified for this message using Bob’s key.
 
-How to Run - Input:
+##How to Run - Input:
 
 String (message signed by Alice and sent from Alice to Bob)
 
-Test Results
+##Test Results
 
 Input (message): test, gives the following output:
 
