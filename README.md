@@ -20,7 +20,7 @@ signature is valid (which in this case it is, because Alice’s decrypted hash m
 message has been signed by Bob, because nobody else has his private key, so nobody else could have created a signature for this message 
 that could be verified for this message using Bob’s key.
 
-## How to Run - Input:
+## User inputs:
 
 String (message signed by Alice and sent from Alice to Bob)
 
